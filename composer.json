@@ -1,0 +1,17 @@
+{
+    "name": "eboosttech/magento2-import-console",
+    "description": "Import by command line",
+    "version": "1.0.0",
+    "type": "magento2-module",
+    "license": [
+        "BSD-4-Clause"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "EBoost\\ImportConsole\\": ""
+        }
+    }
+}
